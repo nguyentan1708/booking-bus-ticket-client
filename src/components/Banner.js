@@ -1,5 +1,8 @@
 import '../styles/index.css';
 import home_slick_slide1 from '../assets/images/home-slick-slide1.jpg';
+import home_slick_slide2 from '../assets/images/home-slick-slide2.jpg';
+import home_slick_slide3 from '../assets/images/home-slick-slide3.jpg';
+
 function Banner(){
     return(
         <section class="banner">
@@ -14,12 +17,12 @@ function Banner(){
                         </div>
                         <div class="banner-swiper-item swiper-slide">
                             <a href="#" class="banner-swiper-link">
-                                <img src="./images/home-slick-slide2.png" alt="" class="banner-swiper-img"/>
+                                <img src={home_slick_slide2} alt="" class="banner-swiper-img"/>
                             </a>
                         </div>
                         <div class="banner-swiper-item swiper-slide">
                             <a href="#" class="banner-swiper-link">
-                                <img src="./images/home-slick-slide3.jpg" alt="" class="banner-swiper-img"/>
+                                <img src={home_slick_slide3} alt="" class="banner-swiper-img"/>
                             </a>
                         </div>
                     </div>

@@ -29,11 +29,13 @@ function Header() {
             </a>
             <div className="header-contact">
               <div className="header-contact-phone">
-                <i className="bx bxs-phone header-contact-icon"></i>
+                <Icon icon="mdi:phone" className="bx bxs-phone header-contact-icon"/>
+                {/* <i className="bx bxs-phone header-contact-icon"></i> */}
                 <span className="header-contact-content">19006067</span>
               </div>
               <div className="header-contact-mail">
-                <i className="fa-solid fa-envelope header-contact-icon"></i>
+                <Icon icon="mdi:email" className="bx bxs-phone header-contact-icon"/>
+                {/* <i className="fa-solid fa-envelope header-contact-icon"></i> */}
                 <span className="header-contact-content">Hotro@futabus.vn</span>
               </div>
             </div>
@@ -41,10 +43,10 @@ function Header() {
             <div className="header-control">
               <div className="header-social">
                 <a href="#" className="header-social-link">
-                  <Icon icon="mdi:facebook" />
+                  <Icon icon="mdi:facebook" className="bx bxl-facebook header-social-icon" />
                 </a>
                 <a href="#" className="header-social-link">
-                  <Icon icon="mdi:youtube" />
+                  <Icon icon="mdi:youtube" className="bx bxl-youtube header-social-icon" />
                 </a>
               </div>
               <ul className="header-language-list use-vn">
@@ -58,13 +60,13 @@ function Header() {
                 </li>
               </ul>
               <a href="#" className="header-login">
-                <i className="bx bxs-user-circle header-login-icon"></i>
+                <Icon icon="mdi:user" className="bx bxs-user-circle header-login-icon"/>
                 <span className="header-login-text">Đăng nhập</span>
               </a>
             </div>
           </div>
         </div>
-        <div classNa me="header-bottom container">
+        <div className="header-bottom container">
           <a href="#" className="header-logo header-logo-inner">
             <h1>
               <img src={home_img_logo} className="header-logo-img" alt="" />
